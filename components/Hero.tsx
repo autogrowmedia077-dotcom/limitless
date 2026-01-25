@@ -38,21 +38,19 @@ export const Hero: React.FC = () => {
              <span className="text-blue-200">Reclaim their developing brain today.</span>
            </p>
 
-           <div className="flex flex-col sm:flex-row gap-4">
-             <button 
-                onClick={scrollToProduct}
-                className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 px-8 rounded-lg shadow-lg hover:shadow-orange-500/30 transition-all flex items-center justify-center gap-2 text-lg"
-             >
-               Buy Now - ₹199
-               <ArrowRight size={20} />
-             </button>
-             <button 
-                onClick={scrollToProblem}
-                className="bg-slate-800 hover:bg-slate-700 text-slate-200 font-medium py-4 px-8 rounded-lg border border-slate-600 transition-all"
-             >
-               See How It Works
-             </button>
-           </div>
+                <div className="flex flex-col sm:flex-row gap-4">
+                    <a style=" width: 150px; background-color: #E19100; text-align: center; font-weight: 800; padding: 11px 0px; color: white; font-size: 12px; display: inline-block; text-decoration: none; border-radius:3.229px; " href='https://u.payu.in/3JQyY6dTRd3e' > Buy Now </a>
+                 
+                   
+                 
+               <button
+                     onClick={scrollToProblem}
+                     className="bg-slate-800 hover:bg-slate-700 text-slate-200 font-medium py-4 px-8 rounded-lg border border-slate-600 transition-all"
+                   >
+                    See How It Works
+                  </button>
+                 </div>
+
            
            <p className="mt-6 text-slate-400 text-xs flex items-center gap-2">
              <span className="w-2 h-2 rounded-full bg-green-500"></span>

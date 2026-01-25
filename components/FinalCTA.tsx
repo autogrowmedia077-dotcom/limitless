@@ -26,10 +26,9 @@ export const FinalCTA: React.FC = () => {
             </div>
           </div>
 
-          <button className="w-full bg-orange-500 hover:bg-orange-600 text-white text-xl font-bold py-4 px-8 rounded-xl shadow-lg hover:shadow-orange-500/40 transition-all flex items-center justify-center gap-2">
-            Buy Now — ₹199
-            <ArrowRight />
-          </button>
+        <a style=" width: 150px; background-color: #E19100; text-align: center; font-weight: 800; padding: 11px 0px; color: white; font-size: 12px; display: inline-block; text-decoration: none; border-radius:3.229px; " href='https://u.payu.in/3JQyY6dTRd3e' > Buy Now </a>
+
+
           
           <p className="mt-4 text-xs text-slate-500 flex items-center justify-center gap-1">
             <Lock size={12} /> Secure One-Time Payment
