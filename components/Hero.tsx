@@ -15,7 +15,7 @@ export const Hero: React.FC = () => {
       <div className="relative w-full md:w-1/2 bg-slate-900 flex flex-col justify-center px-6 py-12 md:p-12 z-10 border-r border-slate-700/50">
         <div className="absolute inset-0 overflow-hidden opacity-30">
           <img
-            src="https://picsum.photos/800/1200?grayscale"
+            src="/IMG_20260125_150414.jpg.jpeg"
             alt="Child looking at screen"
             className="w-full h-full object-cover mix-blend-overlay"
           />
@@ -66,7 +66,7 @@ export const Hero: React.FC = () => {
       <div className="relative hidden md:block w-1/2 bg-amber-50">
         <div className="absolute inset-0">
           <img
-            src="https://picsum.photos/800/1200"
+            src="/IMG_20260125_150414.jpg.jpeg"
             alt="Child playing outdoors"
             className="w-full h-full object-cover opacity-90"
           />

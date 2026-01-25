@@ -25,7 +25,7 @@ export const ProductSection: React.FC = () => {
         <div className="w-full md:w-1/2">
            <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white transform rotate-1 hover:rotate-0 transition-all duration-500">
              <img 
-               src="https://picsum.photos/600/800?random=2" 
+               src="/IMG_20260125_150335.jpg.jpeg" 
                alt="Screen Time Reset Planner" 
                className="w-full h-auto"
              />
