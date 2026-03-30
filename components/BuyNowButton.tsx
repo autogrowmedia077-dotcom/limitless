@@ -3,7 +3,7 @@ import React from "react";
 export const BuyNowButton: React.FC = () => {
   return (
     <a
-      href="https://u.payu.in/3JQyY6dTRd3e"
+      href="https://payments.cashfree.com/forms/limitlesskid"
       className="
         inline-flex items-center justify-center
         h-12 px-8
